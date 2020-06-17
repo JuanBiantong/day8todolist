@@ -1,0 +1,25 @@
+
+body {
+    margin: 5% auto;
+}
+.container {
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 20%;
+    margin: auto;
+}
+
+.container .add-todo {
+    width: 90%;
+    border: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .show-todo {
+    width: 94%;
+    border: 1px solid gainsboro;
+    padding: 3%;
+}
