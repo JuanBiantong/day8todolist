@@ -3,7 +3,6 @@ body {
     margin: 5% auto;
 }
 .container {
-   
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -12,14 +11,19 @@ body {
 }
 
 .container .add-todo {
-    width: 90%;
-    border: 1px solid gainsboro;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 5%;
 }
 
 .container .show-todo {
     width: 94%;
     border: 1px solid gainsboro;
     padding: 3%;
+}
+
+.container .show-todo p {
+    padding: 1%;
+    margin: 0;
 }
